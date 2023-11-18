@@ -29,7 +29,8 @@
 }
 .rhap_progress-container {
     width: 100%;  
-    max-inline-size: -webkit-fill-available;
+    max-inline-size: 296px;
+    writing-mode: horizontal-tb;
 }
 .rhap_main {
     position: relative;
