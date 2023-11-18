@@ -1,0 +1,52 @@
+
+
+.container-player{
+    margin: 4pt ;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    gap: 2pt 2pt;
+}
+.container-player img{
+ max-width: 100%;
+ transform: scale(0.98);
+ border-radius: 6pt;
+ object-fit:none;
+
+}
+.container-player h1{
+    text-decoration: underline;
+    font-size: 25pt;
+    padding: 15pt 0pt;
+}
+.component-musica{
+    border-radius: 5pt;
+
+}
+.rhap_progress-container {
+    width: 100%;  
+    max-inline-size: -webkit-fill-available;
+}
+.rhap_main {
+    position: relative;
+}
+.rhap_total-time,.rhap_current-time{
+position: absolute;
+font-weight: 600;
+margin-top: 25pt;
+}
+
+.rhap_total-time{
+    right: 0;
+
+}
+.rhap_current-time{
+left: 0;
+}
+#root > div > div > div > div > div.rhap_controls-section > div.rhap_volume-controls > div > div{
+    arial-valuenow:76;
+}
